@@ -1,19 +1,28 @@
-# kotlin-android-template 🤖
+# github-actions-sample 🤖
 
-[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![Pre Merge Checks](https://github.com/cortinico/kotlin-android-template/workflows/Pre%20Merge%20Checks/badge.svg)  ![License](https://img.shields.io/github/license/cortinico/kotlin-android-template.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
+[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate) ![License](https://img.shields.io/github/license/cortinico/kotlin-android-template.svg) ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
 
-A simple Github template that lets you create an **Android/Kotlin** project and be up and running in a **few seconds**. 
+This is a sample repository used to setup Github Actions during the talk _Devops-ify your life with Github Actions_
 
-This template is focused on delivering a project with **static analysis** and **continuous integration** already in place.
+This repo contains just a dummy Android App. The Android App is inside the [/app](/app) folder.
 
-## How to use 👣
+To run all the checks you can simply run:
 
-Just click on [![Use this template](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/cortinico/kotlin-android-template/generate) button to create a new repo starting from this template.
+```
+./gradlew check
+```
 
-Once created don't forget to update the:
-- [App ID](buildSrc/src/main/java/Coordinates.kt)
-- AndroidManifest ([here](app/src/main/AndroidManifest.xml) and [here](library-android/src/main/AndroidManifest.xml))
-- Package of the source files
+To create a release APK you can simply run
+
+```
+./gradlew assembleRelease
+```
+
+## Template 📦
+
+[![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate)
+
+This repository has been created from the [kotlin-android-template](https://github.com/cortinico/kotlin-android-template/generate) Github Template repo.
 
 ## Features 🎨
 
