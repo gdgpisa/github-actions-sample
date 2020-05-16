@@ -18,6 +18,12 @@ To create a release APK you can simply run
 ./gradlew assembleRelease
 ```
 
+The APK will be available in:
+
+```
+./app/build/outputs/apk/release/app-release-unsigned.apk
+```
+
 ## Template 📦
 
 [![Use this template](https://img.shields.io/badge/from-kotlin--android--template-brightgreen?logo=dropbox)](https://github.com/cortinico/kotlin-android-template/generate)
